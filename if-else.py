@@ -1,5 +1,11 @@
-num = 8
-if num % 2 == 0:
-    print("Even Number")
+marks = 25
+if marks > 33:
+    print("Passed")
+    if marks > 65:
+        print("Grade A")
+    elif marks > 50:
+        print("Grade B")
+    else:
+        print("Grade C")
 else:
-    print("Odd Number") 
+    print("Fail")
